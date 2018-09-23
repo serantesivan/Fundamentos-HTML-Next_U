@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos HTML - Iván Serantes</title>
+  </head>
+  <body>
+    <img src="img/logo.svg" alt="IvanSerantes_logo" title="MiLogo">
+    <h1>Curriculum Vitae</h1>
+    <h2>Iván Serantes</h2>
+    <h3>Buenos Aires, 1987</h3>
+    <nav>
+      <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <h2>Educación</h2>
+    <table border="1", cellpadding="10", cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Finalizada?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2014</td>
+          <td>UCES</td>
+          <td>Buenos Aires</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>UTN</td>
+          <td>Córdoba</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Next_U</td>
+          <td>Online</td>
+          <td>En Curso</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+    <h2>Agregar Estudios</h2>
+    <form class="" action="index.html" method="post" autocomplete="on" name="agregar_estudios">
+      <label for="año">Año</label>
+        <select class="" name="año">
+          <option value="1">2018</option>
+          <option value="2">2017</option>
+          <option value="3">2016</option>
+          <option value="4">2015</option>
+          <option value="5">2014</option>
+          <option value="6">2013</option>
+          <option value="7">2012</option>
+        </select>
+        <br>
+        <label for="institucion">Institución</label>
+        <input type="text" name="institucion" placeholder="Ej:Next_U" required>
+        <br>
+        <label for="lugar">Lugar</label>
+        <textarea name="lugar" rows="2" cols="30"></textarea>
+        <br>
+        <button type="button" name="button">Enviar</button>
+    </form>
+    </p>
+    <footer>
+      <a href="mailto:serantesivan@gmail.com?subject=Contacto_Sitio">Contacto</a> |
+      <a href="https://www.linkedin.com/in/ivanserantes/">LinkedIn</a> <br>
+      Copyright Iván Seranes(c) 2018
+    </footer>
+  </body>
+
+
+</html>
